@@ -1,9 +1,7 @@
 <%- include('partials/header.ejs'); -%>
 
   <div class="box" id="heading">
-    <h1>
-      <%= listTitle %>
-    </h1>
+    <h1>Rc11 To-Do List</h1>
   </div>
   
   <div class="box">
@@ -34,7 +32,7 @@
 
         <form class="item" action="/add" method="post">
           <input type="text" name="newItem" placeholder="New Item" autocomplete="off" autofocus="true" />
-          <button class="add" type="submit" name="list" value=<%=listTitle %> >+</button>
+          <button class="add" type="submit" name="list" value="Rc11 To-Do List" >+</button>
         </form>
   </div>
 

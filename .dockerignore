@@ -1,0 +1,24 @@
+# .dockerignore
+
+# Ignore Node.js dependency directory.
+# These will be installed within the container based on package.json.
+node_modules
+
+# Ignore Node.js crash logs and reporting files.
+npm-debug.log
+npm-debug.log.*
+yarn-debug.log
+yarn-error.log
+
+# Ignore local development environment files.
+# The .env file contains secrets and should never be copied into a Docker image.
+# We will inject these as environment variables at runtime.
+.env
+
+# Ignore Git directory and files.
+.git
+.gitignore
+
+# Ignore Docker-specific files.
+Dockerfile
+.dockerignore

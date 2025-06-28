@@ -246,8 +246,6 @@ app.post("/delete", async (req, res) => {
 ---
 
 
-### pgAdmin Tool (for local development):
-![pgAdmin-todo](https://github.com/shanibider/CRUD-PostgreSQL-Todo-List/assets/72359805/070794ce-8d83-4629-8bf3-5d24217c7a40)
 
 
 ### Render (for deploying the project + hosted PostgreSQL DB) + TablePlus (DB for production):

@@ -257,7 +257,5 @@ app.post("/delete", async (req, res) => {
 
 
 
-<p style="float:left; width: 20%;">
-Copyright © Shani Bider, 2024
-</p>
+
 </footer>

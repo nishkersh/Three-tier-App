@@ -246,9 +246,6 @@ app.post("/delete", async (req, res) => {
 ---
 
 
-## Screenshots 🖼️
-![todo2](https://github.com/shanibider/CRUD-PostgreSQL-Todo-List/assets/72359805/df422a92-7def-4969-bd69-62f5be3c5060)
-
 ### pgAdmin Tool (for local development):
 ![pgAdmin-todo](https://github.com/shanibider/CRUD-PostgreSQL-Todo-List/assets/72359805/070794ce-8d83-4629-8bf3-5d24217c7a40)
 
